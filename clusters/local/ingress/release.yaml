@@ -22,4 +22,5 @@ spec:
     controller:
       hostPort:      
         enabled: true
-  
+      admissionWebhooks:
+        enabled: false  
