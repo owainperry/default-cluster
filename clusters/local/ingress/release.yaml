@@ -18,5 +18,7 @@ spec:
       retries: 3
   targetNamespace: ingress
   values:
-    
+    # to support local access to ports
+    hostPort:      
+      enabled: true
   
