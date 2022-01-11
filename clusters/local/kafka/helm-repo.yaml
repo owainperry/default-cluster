@@ -1,0 +1,8 @@
+apiVersion: source.toolkit.fluxcd.io/v1beta1
+kind: HelmRepository
+metadata:
+  name: cliffordt3-github
+  namespace: flux-system
+spec:
+  interval: 30m
+  url: https://cliffordt3.github.io/helm-charts/
